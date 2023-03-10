@@ -6,8 +6,8 @@ services:
       - PUID=1000  # 可修改为你想以什么用户运行caddy，该用户的UID
       - PGID=1000  # 可修改为你想以什么用户运行caddy，该用户的UID
       - DB_HOST=db:3306
-      - DB_USER=root
-      - DB_PASSWD=janejane123456  # 数据库密码
+      - DB_USER=admin
+      - DB_PASSWD=kingdom17  # 数据库密码
       - DB_NAME=tiebacloud        # 数据库名
       - CSRF=true
       # - TC_AUTO_CREATE_INSTALL_LOCK=true # 如果希望自动创建install.lock请解除此注释
